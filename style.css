@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* --------------- [header style] ------------ */
+
+.headerParent {
+    width: 100%;
+    height: 80px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.menuDiv {
+    width: 33%;
+    height: 20px;
+    border: 2px solid black;
+    text-align: center;
+
+}
+
+.menuDiv span {
+    padding-left: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 17px;
+}
+.nameDiv {
+    width: 20%;
+    height: 80px;
+    border: 2px solid black;
+}
+.nameDiv h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 35px;
+}
+.socialNetworkDiv {
+    width: 33%;
+    height: 80px;
+    border: 2px solid black;
+}
