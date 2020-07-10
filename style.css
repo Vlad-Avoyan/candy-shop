@@ -12,11 +12,11 @@
     justify-content: space-around;
 }
 .menuDiv {
-    width: 20%;
+    width: 22%;
     height: 20px;
     text-align: center;
     margin-top: 15px;
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 .menuDiv span {
@@ -38,13 +38,58 @@
     font-size: 35px;
 }
 .socialNetworkDiv {
-    width: 33%;
+    width: 17%;
     height: 20px;
     margin-top: 15px;
+    margin-right: 190px;
 }
 .socialNetworkDiv span {
     padding-left: 10px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 17px;
     cursor: pointer;
+}
+
+/* ------------ advertising style ---------- */
+
+.advertising {
+    width: 90%;
+    height: 680px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.imageDiv {
+    position: relative;
+    width: auto;
+    height: auto;
+
+}
+.advertising img {
+    width: 100%;
+    height: auto;
+}
+.presentation {
+    position: absolute;
+    width: 25%;
+    height: 430px;
+    left: 150px;
+    top: 200px;
+    overflow: hidden;
+}
+.presentation h1 {
+    color: white;
+    padding: 5px;
+    font-size: 65px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.presentation button {
+    width: 130px;
+    height: 40px;
+    border: none;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.presentation button:hover {
+    color: #f7a6f2;
 }
