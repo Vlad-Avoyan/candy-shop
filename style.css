@@ -93,3 +93,59 @@
 .presentation button:hover {
     color: #f7a6f2;
 }
+
+/* ------------popular Content style----------- */
+
+.popularContentText {
+    width: 600px;
+    height: 100px;
+    margin-top: 50px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.popularContentText h1, h3 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* -----------------cakes style -------------- */
+
+.cakesIntruduce {
+    width: 78%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.cake1,.cake2, .cake3  {
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+    cursor: pointer;
+}
+.cake1 p {
+    text-align: center;
+    padding-top: 20px;
+}
+.cake2 p {
+    text-align: center;
+    padding-top: 20px;
+}
+.cake3 p {
+    text-align: center;
+    padding-top: 20px;
+}
+.cake3 {
+    position: relative;
+}
+.newD {
+    width: 100px;
+    height: 55px;
+    position: absolute;
+    background: #D19FBB;
+}
+.newD p {
+    color: white;
+    text-align: center;
+}
